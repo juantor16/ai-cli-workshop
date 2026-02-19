@@ -1,0 +1,36 @@
+user_id,user_name,application,permission_level,can_read,can_write,can_delete,can_admin
+U001,john.smith,CRM,Standard,true,true,false,false
+U001,john.smith,Billing,ReadOnly,true,false,false,false
+U001,john.smith,Reports,Standard,true,true,false,false
+U002,maria.garcia,CRM,Admin,true,true,true,true
+U002,maria.garcia,Billing,Admin,true,true,true,true
+U002,maria.garcia,Reports,Admin,true,true,true,true
+U002,maria.garcia,HR System,ReadOnly,true,false,false,false
+U003,david.chen,CRM,Standard,true,true,false,false
+U003,david.chen,Billing,ReadOnly,true,false,false,false
+U003,david.chen,Reports,ReadOnly,true,false,false,false
+U004,sarah.johnson,CRM,Admin,true,true,true,true
+U004,sarah.johnson,Billing,Admin,true,true,true,true
+U004,sarah.johnson,Reports,Admin,true,true,true,true
+U004,sarah.johnson,HR System,Standard,true,true,false,false
+U005,mike.wilson,CRM,ReadOnly,true,false,false,false
+U005,mike.wilson,Billing,NoAccess,false,false,false,false
+U005,mike.wilson,Reports,Standard,true,true,false,false
+U006,emma.davis,CRM,Admin,true,true,true,true
+U006,emma.davis,Billing,Standard,true,true,false,false
+U006,emma.davis,Reports,Standard,true,true,false,false
+U006,emma.davis,HR System,NoAccess,false,false,false,false
+U007,carlos.rodriguez,CRM,Standard,true,true,false,false
+U007,carlos.rodriguez,Billing,ReadOnly,true,false,false,false
+U007,carlos.rodriguez,Reports,Standard,true,true,false,false
+U008,lisa.martinez,CRM,Admin,true,true,true,true
+U008,lisa.martinez,Billing,Standard,true,true,false,false
+U008,lisa.martinez,Reports,Standard,true,true,false,false
+U008,lisa.martinez,HR System,Standard,true,true,false,false
+U009,james.taylor,CRM,NoAccess,false,false,false,false
+U009,james.taylor,Billing,NoAccess,false,false,false,false
+U009,james.taylor,Reports,ReadOnly,true,false,false,false
+U010,anna.brown,CRM,Standard,true,true,false,false
+U010,anna.brown,Billing,Standard,true,true,false,false
+U010,anna.brown,Reports,Standard,true,true,false,false
+U010,anna.brown,HR System,ReadOnly,true,false,false,false

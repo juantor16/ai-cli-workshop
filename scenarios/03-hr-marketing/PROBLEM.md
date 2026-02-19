@@ -54,15 +54,31 @@ Write a professional but warm rejection email for candidates who didn't make it.
 - Keep it under 150 words
 ```
 
-### Prompt 4: LinkedIn Hiring Post
+### Prompt 4: Create Reusable Interview Scoring Tool
 ```
-Write a LinkedIn post announcing we're hiring Senior Developers.
-Make it:
-- Engaging, not corporate-boring
-- Mention what makes our team special
-- Include a call to action
-- Add relevant hashtags
-- Keep it under 200 words
+Create a single HTML file called "interview-scorer.html" that:
+
+1. Has a professional UI
+2. Lets me paste interview notes (free text)
+3. Uses a form to input:
+   - Candidate name
+   - Position
+   - Interviewer scores (1-5) for: Technical, Communication, Culture Fit
+4. Calculates weighted average score
+5. Generates a summary paragraph
+6. Stores all candidates in a table (localStorage)
+7. Exports final ranking to CSV
+8. Has templates for rejection/offer emails
+
+This tool should work for any hiring process, not just this one.
+```
+
+### Prompt 5: Add Comparison View
+```
+Add a feature that shows all candidates side-by-side with:
+- Radar chart comparing their scores
+- Color coding (green=proceed, yellow=maybe, red=pass)
+- One-click email generation for each candidate
 ```
 
 ---
@@ -70,6 +86,10 @@ Make it:
 ## 🔑 Teaching Points
 
 - AI excels at summarizing unstructured text
-- Generate multiple content variations quickly
-- Maintain consistent professional tone
-- HR/Marketing can use AI without writing code
+- **Build tools that become part of your workflow**
+- HR can create their own utilities
+- Templates save time on repetitive communications
+
+## 🎁 End Result
+
+An `interview-scorer.html` that HR uses for every hiring round - consistent process, faster decisions.

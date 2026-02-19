@@ -44,13 +44,33 @@ For the most frequent error type, show me:
 3. Possible root cause based on the context
 ```
 
-### Prompt 3: Create Monitoring Script
+### Prompt 3: Create Reusable Log Analyzer Tool
 ```
-Create a bash script called monitor.sh that:
-1. Tails a log file passed as argument
-2. Highlights ERROR lines in red
-3. Counts errors per minute
-4. Alerts if more than 5 errors occur in 1 minute
+Create a single HTML file called "log-analyzer.html" that:
+
+1. Has a modern dark UI
+2. Lets me paste or upload log files
+3. Automatically detects and highlights:
+   - ERROR (red)
+   - WARN (yellow) 
+   - INFO (gray)
+4. Shows a summary: total lines, errors, warnings
+5. Filters to show only errors/warnings
+6. Timeline chart showing errors over time
+7. Search functionality
+8. Works 100% in the browser (no server)
+
+This tool should be reusable for any future incident analysis.
+```
+
+### Prompt 4: Add Export Feature
+```
+Add a "Generate Incident Report" button that creates a 
+markdown summary I can paste into Slack/Jira with:
+- Incident timeline
+- Error counts by type
+- Affected services
+- Suggested root cause
 ```
 
 ---
@@ -59,5 +79,9 @@ Create a bash script called monitor.sh that:
 
 - AI can process large files instantly
 - Pattern recognition across hundreds of lines
-- Code generation from natural language requirements
-- Iterative refinement ("make it also count warnings")
+- **Create reusable tools, not just one-time answers**
+- The HTML tool can be used for every future incident
+
+## 🎁 End Result
+
+A `log-analyzer.html` file that the whole team can use for incident analysis - no setup required, just open in browser.

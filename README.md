@@ -30,19 +30,27 @@
 
 ## 📁 Workshop Scenarios
 
-We have **3 scenarios** prepared for different roles:
+We have **4 scenarios** prepared for different roles. Each one ends with **creating a reusable tool** (HTML file) that can be used again and again.
 
 ### 🔧 Scenario 1: Developer
 **Problem:** Parse server logs to find error patterns  
+**Tool Created:** `log-analyzer.html` - Reusable incident analysis tool  
 **Folder:** `scenarios/01-developer/`
 
 ### 📊 Scenario 2: PM / Analyst  
 **Problem:** Analyze sales data and generate executive summary  
+**Tool Created:** `sales-dashboard.html` - Drag-and-drop sales analyzer  
 **Folder:** `scenarios/02-pm-analyst/`
 
 ### 👥 Scenario 3: HR / Marketing
 **Problem:** Process candidate feedback and create content  
+**Tool Created:** `interview-scorer.html` - Candidate tracking & email generator  
 **Folder:** `scenarios/03-hr-marketing/`
+
+### 🔐 Scenario 4: QA Engineer ⭐ RECOMMENDED
+**Problem:** Compare expected vs actual permissions  
+**Tool Created:** `permissions-checker.html` - CSV comparison tool  
+**Folder:** `scenarios/04-qa-permissions/`
 
 ---
 
@@ -70,6 +78,7 @@ cat PROBLEM.md
 2. **Context is everything** - The more context you give, the better the output
 3. **Iterate, don't expect perfection** - Treat AI as a pair programmer
 4. **Anyone can use it** - Not just developers!
+5. **Build tools, not just answers** - Create reusable solutions that help your team forever
 
 ---
 

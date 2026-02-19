@@ -56,11 +56,30 @@ that I can paste into a board presentation. Include:
 Keep it under 100 words, professional tone.
 ```
 
-### Prompt 4: Create Visualization Data
+### Prompt 4: Create Reusable Sales Dashboard Tool
 ```
-Generate the data I need to create a bar chart in Google Sheets showing:
-- Monthly revenue trend (Oct, Nov, Dec)
-- Format as a simple table I can copy-paste
+Create a single HTML file called "sales-dashboard.html" that:
+
+1. Has a clean, professional dark UI
+2. Lets me upload any sales CSV with similar format
+3. Automatically calculates:
+   - Total revenue
+   - Top 5 products
+   - Revenue by region (with bar chart)
+   - Monthly trend (with line chart)
+4. Generates an "Executive Summary" paragraph
+5. Has a "Copy for Slides" button
+6. Works 100% in browser (use Chart.js from CDN)
+
+This should work for any quarter's data, not just Q4.
+```
+
+### Prompt 5: Add Comparison Feature
+```
+Add a feature to upload TWO CSV files (e.g., Q3 vs Q4) and show:
+- Quarter-over-quarter growth
+- Products that improved/declined
+- Regions that need attention
 ```
 
 ---
@@ -69,5 +88,9 @@ Generate the data I need to create a bar chart in Google Sheets showing:
 
 - AI can analyze CSV/Excel data without complex tools
 - Natural language queries = no SQL or formulas needed
-- Generate presentation-ready content instantly
-- Perfect for people who aren't "technical"
+- **Create tools that work for future data, not just today's**
+- PMs can build their own dashboards without dev help
+
+## 🎁 End Result
+
+A `sales-dashboard.html` that works for any quarter's sales data - drag, drop, done.
