@@ -1,0 +1,17 @@
+date,vendor,category,amount,approved_by,project
+2025-12-02,AWS,Cloud Infrastructure,32000,CFO,General
+2025-12-02,Google Cloud,Cloud Infrastructure,16000,CFO,Project Alpha
+2025-12-05,Meta Ads,Marketing,22000,CMO,Holiday Campaign
+2025-12-05,Google Ads,Marketing,18000,CMO,Holiday Campaign
+2025-12-08,LinkedIn,Marketing,5000,CMO,Recruiting
+2025-12-10,Payroll,Salaries,195000,CFO,General
+2025-12-12,WeWork,Office & Facilities,12000,COO,General
+2025-12-15,Figma,Software Licenses,2400,CTO,Design Team
+2025-12-15,GitHub Enterprise,Software Licenses,4800,CTO,Engineering
+2025-12-15,Slack,Software Licenses,2000,CTO,General
+2025-12-18,DevConsultants LLC,Contractor Fees,15000,CTO,Project Alpha
+2025-12-20,QA Experts Inc,Contractor Fees,8000,CTO,Project Beta
+2025-12-22,SecurityAudit Co,Contractor Fees,5000,CTO,Compliance
+2025-12-28,Baker & Associates,Legal & Compliance,15000,CEO,Annual Audit
+2025-12-30,Holiday Party,Miscellaneous,3800,HR Director,Team Event
+2025-12-30,Team Gifts,Miscellaneous,2000,HR Director,Team Event

@@ -1,0 +1,6 @@
+project_id,project_name,status,start_date,target_launch,budget,spent,lead,team_size,priority
+P001,Project Alpha,In Development,2024-06-01,2026-03-15,850000,620000,E004,6,CRITICAL
+P002,Project Beta,Planning,2024-10-01,2026-06-30,400000,85000,E006,3,HIGH
+P003,Platform Maintenance,Ongoing,2023-01-01,N/A,200000,180000,E010,2,MEDIUM
+P004,Security Audit,Complete,2025-10-01,2025-12-15,50000,48000,E002,1,HIGH
+P005,Mobile App (Exploratory),On Hold,2025-03-01,TBD,100000,25000,E011,1,LOW

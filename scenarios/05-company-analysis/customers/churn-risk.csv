@@ -1,0 +1,9 @@
+customer_id,company_name,risk_level,risk_score,contract_end,days_until_renewal,last_login_days_ago,support_tickets_90d,nps_score,main_concern,recommended_action
+C002,TechStart Inc,CRITICAL,92,2025-05-31,162,45,12,-20,Product not meeting needs,Exec escalation + custom solution
+C006,HealthPlus,HIGH,78,2025-05-14,145,30,8,10,Compliance features missing,Roadmap review meeting
+C015,AutoDrive,HIGH,75,2025-10-31,315,21,6,15,Price concerns,Offer annual discount
+C008,BuildRight,MEDIUM,58,2025-08-09,232,14,4,35,Limited integrations,Demo new integration features
+C013,SportsFan,MEDIUM,55,2025-10-14,298,18,3,40,Feature requests pending,Priority feature review
+C005,RetailMax,MEDIUM,52,2025-03-19,89,7,5,45,Slow support response,Assign dedicated CSM
+C011,FoodChain,LOW,35,2025-08-31,254,5,2,55,None specific,Standard renewal process
+C007,EduLearn,LOW,28,2025-06-30,192,3,1,60,None specific,Standard renewal process

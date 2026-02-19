@@ -47,10 +47,15 @@ We have **4 scenarios** prepared for different roles. Each one ends with **creat
 **Tool Created:** `interview-scorer.html` - Candidate tracking & email generator  
 **Folder:** `scenarios/03-hr-marketing/`
 
-### 🔐 Scenario 4: QA Engineer ⭐ RECOMMENDED
+### 🔐 Scenario 4: QA Engineer
 **Problem:** Compare expected vs actual permissions  
 **Tool Created:** `permissions-checker.html` - CSV comparison tool  
 **Folder:** `scenarios/04-qa-permissions/`
+
+### 🏢 Scenario 5: Cross-File Company Analysis ⭐ RECOMMENDED
+**Problem:** Analyze scattered company data across multiple files  
+**Output:** Executive reports, risk assessments, dashboards (not just HTML!)  
+**Folder:** `scenarios/05-company-analysis/`
 
 ---
 

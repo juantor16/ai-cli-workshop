@@ -1,0 +1,19 @@
+employee_id,name,role,department,start_date,salary,manager,projects_assigned,status
+E001,Sarah Chen,CEO,Executive,2020-01-15,180000,,Strategic,Active
+E002,Michael Torres,CTO,Engineering,2020-03-01,165000,E001,"Alpha,Platform",Active
+E003,Jennifer Park,CFO,Finance,2020-06-01,155000,E001,Finance Ops,Active
+E004,David Kim,VP Engineering,Engineering,2021-02-15,140000,E002,"Alpha,Beta",Active
+E005,Lisa Wang,Senior Developer,Engineering,2021-04-01,120000,E004,Alpha,Active
+E006,James Miller,Senior Developer,Engineering,2021-06-15,118000,E004,Beta,Active
+E007,Maria Garcia,Developer,Engineering,2022-01-10,95000,E004,Alpha,Active
+E008,Alex Thompson,Developer,Engineering,2022-03-20,92000,E004,Beta,Active
+E009,Emma Wilson,Junior Developer,Engineering,2023-06-01,75000,E004,Platform,Active
+E010,Ryan Lee,DevOps Engineer,Engineering,2022-08-15,105000,E002,Platform,Active
+E011,Amanda Brown,Product Manager,Product,2021-09-01,125000,E001,Alpha,Active
+E012,Chris Davis,UX Designer,Design,2022-02-01,98000,E011,Alpha,Active
+E013,Nicole Taylor,Marketing Manager,Marketing,2021-11-15,95000,E001,Marketing,Active
+E014,Kevin Zhang,Sales Lead,Sales,2022-05-01,85000,E001,Sales,Active
+E015,Rachel Green,Customer Success,Support,2022-07-15,72000,E014,Support,Active
+E016,Tom Anderson,Developer,Engineering,2024-01-15,88000,E004,Beta,Active
+E017,Sofia Martinez,QA Engineer,Engineering,2023-09-01,82000,E004,"Alpha,Beta",Active
+E018,Jake Wilson,Intern,Engineering,2024-06-01,45000,E004,Platform,Active
