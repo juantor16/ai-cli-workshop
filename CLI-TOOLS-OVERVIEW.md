@@ -2,15 +2,15 @@
 
 ## Why CLI over Web?
 
-| Aspecto | Web (ChatGPT, Claude.ai) | CLI (Claude Code, aider) |
-|---------|--------------------------|--------------------------|
-| **Acceso a archivos** | ❌ Copy-paste manual | ✅ Lee directo del disco |
-| **Tamaño de contexto** | Limitado por ventana | Puede leer proyectos enteros |
-| **Automatización** | ❌ No scripteable | ✅ Integrable en pipelines |
-| **Edición de código** | Copy-paste de vuelta | ✅ Edita archivos directo |
-| **Historial de Git** | ❌ Manual | ✅ Commits automáticos |
-| **Privacidad** | Datos van a la nube | Algunas opciones locales |
-| **Velocidad** | Overhead del browser | Más directo |
+| Aspect | Web (ChatGPT, Claude.ai) | CLI (Claude Code, aider) |
+|--------|--------------------------|--------------------------|
+| **File Access** | ❌ Manual copy-paste | ✅ Reads directly from disk |
+| **Context Size** | Limited by window | Can read entire projects |
+| **Automation** | ❌ Not scriptable | ✅ Pipeline integration |
+| **Code Editing** | Copy-paste back | ✅ Edits files directly |
+| **Git History** | ❌ Manual | ✅ Auto-commits |
+| **Privacy** | Data goes to cloud | Some local options |
+| **Speed** | Browser overhead | More direct |
 
 ---
 
