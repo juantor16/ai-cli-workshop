@@ -1,0 +1,60 @@
+date,product,region,units_sold,unit_price,revenue,sales_rep
+2025-10-01,CloudSync Pro,North America,45,299,13455,Sarah Johnson
+2025-10-01,DataVault Enterprise,Europe,12,899,10788,Marcus Weber
+2025-10-01,CloudSync Pro,Europe,28,299,8372,Emma Schmidt
+2025-10-01,API Gateway Plus,North America,67,149,9983,Michael Chen
+2025-10-01,DataVault Enterprise,North America,18,899,16182,Sarah Johnson
+2025-10-02,CloudSync Pro,LATAM,15,249,3735,Carlos Rodriguez
+2025-10-02,API Gateway Plus,Europe,34,149,5066,Marcus Weber
+2025-10-02,SecurityShield,North America,89,79,7031,Jennifer Park
+2025-10-03,DataVault Enterprise,APAC,8,899,7192,Wei Zhang
+2025-10-03,CloudSync Pro,APAC,22,299,6578,Wei Zhang
+2025-10-05,API Gateway Plus,LATAM,23,129,2967,Carlos Rodriguez
+2025-10-05,SecurityShield,Europe,56,79,4424,Emma Schmidt
+2025-10-07,CloudSync Pro,North America,52,299,15548,Michael Chen
+2025-10-08,DataVault Enterprise,Europe,15,899,13485,Marcus Weber
+2025-10-10,SecurityShield,APAC,42,79,3318,Wei Zhang
+2025-10-12,API Gateway Plus,North America,78,149,11622,Jennifer Park
+2025-10-15,CloudSync Pro,Europe,31,299,9269,Emma Schmidt
+2025-10-15,DataVault Enterprise,North America,22,899,19778,Sarah Johnson
+2025-10-18,CloudSync Pro,LATAM,18,249,4482,Carlos Rodriguez
+2025-10-20,SecurityShield,North America,95,79,7505,Michael Chen
+2025-10-22,API Gateway Plus,APAC,29,149,4321,Wei Zhang
+2025-10-25,DataVault Enterprise,APAC,6,899,5394,Wei Zhang
+2025-10-28,CloudSync Pro,North America,48,299,14352,Sarah Johnson
+2025-11-01,DataVault Enterprise,Europe,19,899,17081,Marcus Weber
+2025-11-01,CloudSync Pro,Europe,35,299,10465,Emma Schmidt
+2025-11-02,API Gateway Plus,North America,82,149,12218,Jennifer Park
+2025-11-03,SecurityShield,LATAM,38,69,2622,Carlos Rodriguez
+2025-11-05,CloudSync Pro,APAC,25,299,7475,Wei Zhang
+2025-11-05,DataVault Enterprise,North America,25,899,22475,Sarah Johnson
+2025-11-08,API Gateway Plus,Europe,41,149,6109,Marcus Weber
+2025-11-10,SecurityShield,North America,102,79,8058,Michael Chen
+2025-11-12,CloudSync Pro,LATAM,12,249,2988,Carlos Rodriguez
+2025-11-15,DataVault Enterprise,APAC,9,899,8091,Wei Zhang
+2025-11-15,CloudSync Pro,North America,58,299,17342,Jennifer Park
+2025-11-18,API Gateway Plus,LATAM,19,129,2451,Carlos Rodriguez
+2025-11-20,SecurityShield,Europe,61,79,4819,Emma Schmidt
+2025-11-22,CloudSync Pro,Europe,29,299,8671,Marcus Weber
+2025-11-25,DataVault Enterprise,North America,28,899,25172,Sarah Johnson
+2025-11-28,API Gateway Plus,North America,91,149,13559,Michael Chen
+2025-12-01,CloudSync Pro,North America,62,299,18538,Sarah Johnson
+2025-12-01,SecurityShield,APAC,35,79,2765,Wei Zhang
+2025-12-02,DataVault Enterprise,Europe,21,899,18879,Emma Schmidt
+2025-12-03,API Gateway Plus,Europe,38,149,5662,Marcus Weber
+2025-12-05,CloudSync Pro,LATAM,14,249,3486,Carlos Rodriguez
+2025-12-05,SecurityShield,North America,88,79,6952,Jennifer Park
+2025-12-08,DataVault Enterprise,North America,31,899,27869,Michael Chen
+2025-12-10,CloudSync Pro,APAC,27,299,8073,Wei Zhang
+2025-12-10,API Gateway Plus,APAC,33,149,4917,Wei Zhang
+2025-12-12,DataVault Enterprise,APAC,7,899,6293,Wei Zhang
+2025-12-15,CloudSync Pro,Europe,33,299,9867,Marcus Weber
+2025-12-15,SecurityShield,LATAM,29,69,2001,Carlos Rodriguez
+2025-12-18,API Gateway Plus,North America,85,149,12665,Sarah Johnson
+2025-12-20,CloudSync Pro,North America,55,299,16445,Jennifer Park
+2025-12-22,DataVault Enterprise,Europe,17,899,15283,Emma Schmidt
+2025-12-23,SecurityShield,Europe,48,79,3792,Marcus Weber
+2025-12-26,API Gateway Plus,LATAM,21,129,2709,Carlos Rodriguez
+2025-12-28,CloudSync Pro,LATAM,16,249,3984,Carlos Rodriguez
+2025-12-30,DataVault Enterprise,North America,24,899,21576,Michael Chen
+2025-12-31,SecurityShield,North America,76,79,6004,Sarah Johnson

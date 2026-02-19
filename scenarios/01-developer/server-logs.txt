@@ -1,0 +1,73 @@
+2026-02-18 23:01:15 INFO  [api-gateway] Request received: GET /api/users/123
+2026-02-18 23:01:15 INFO  [api-gateway] Response sent: 200 OK (45ms)
+2026-02-18 23:01:18 INFO  [auth-service] Token validated for user_id=123
+2026-02-18 23:01:22 WARN  [database] Connection pool at 80% capacity
+2026-02-18 23:01:25 INFO  [api-gateway] Request received: POST /api/orders
+2026-02-18 23:01:26 INFO  [order-service] Processing order for user_id=456
+2026-02-18 23:01:28 ERROR [database] Connection timeout after 30000ms - pool exhausted
+2026-02-18 23:01:28 ERROR [order-service] Failed to create order: DatabaseException - Connection timeout
+2026-02-18 23:01:30 INFO  [api-gateway] Response sent: 500 Internal Server Error (5023ms)
+2026-02-18 23:01:32 WARN  [database] Connection pool at 90% capacity
+2026-02-18 23:01:35 INFO  [api-gateway] Request received: GET /api/products
+2026-02-18 23:01:36 ERROR [database] Connection timeout after 30000ms - pool exhausted
+2026-02-18 23:01:36 ERROR [product-service] Failed to fetch products: DatabaseException - Connection timeout
+2026-02-18 23:01:38 INFO  [api-gateway] Response sent: 500 Internal Server Error (3012ms)
+2026-02-18 23:01:40 INFO  [api-gateway] Request received: GET /api/users/789
+2026-02-18 23:01:41 ERROR [database] Connection timeout after 30000ms - pool exhausted
+2026-02-18 23:01:41 ERROR [user-service] Failed to get user: DatabaseException - Connection timeout
+2026-02-18 23:01:45 WARN  [database] Connection pool at 95% capacity - CRITICAL
+2026-02-18 23:01:48 ERROR [database] Connection timeout after 30000ms - pool exhausted
+2026-02-18 23:01:48 ERROR [api-gateway] Circuit breaker OPEN for database connections
+2026-02-18 23:01:50 INFO  [api-gateway] Request received: POST /api/auth/login
+2026-02-18 23:01:51 ERROR [auth-service] Authentication failed: DatabaseException - Circuit breaker is OPEN
+2026-02-18 23:01:52 INFO  [api-gateway] Response sent: 503 Service Unavailable (1502ms)
+2026-02-18 23:01:55 ERROR [health-check] Database health check FAILED
+2026-02-18 23:01:58 INFO  [api-gateway] Request received: GET /api/orders/555
+2026-02-18 23:01:59 ERROR [order-service] Failed to fetch order: DatabaseException - Circuit breaker is OPEN
+2026-02-18 23:02:00 INFO  [api-gateway] Response sent: 503 Service Unavailable (1205ms)
+2026-02-18 23:02:05 WARN  [alerting] Alert triggered: DATABASE_POOL_EXHAUSTED
+2026-02-18 23:02:10 INFO  [ops-bot] Paging on-call engineer: incident AUTO-2026-0218-001
+2026-02-18 23:02:15 ERROR [database] Connection timeout after 30000ms - pool exhausted
+2026-02-18 23:02:15 ERROR [product-service] Failed to fetch products: DatabaseException - Connection timeout
+2026-02-18 23:02:20 INFO  [api-gateway] Request received: GET /health
+2026-02-18 23:02:20 WARN  [health-check] Degraded mode: database unavailable
+2026-02-18 23:02:21 INFO  [api-gateway] Response sent: 200 OK (Degraded) (15ms)
+2026-02-18 23:02:25 ERROR [database] Connection timeout after 30000ms - pool exhausted
+2026-02-18 23:02:25 ERROR [auth-service] Token refresh failed: DatabaseException - Connection timeout
+2026-02-18 23:02:30 INFO  [api-gateway] Request received: POST /api/orders
+2026-02-18 23:02:31 ERROR [order-service] Failed to create order: DatabaseException - Circuit breaker is OPEN
+2026-02-18 23:02:32 INFO  [api-gateway] Response sent: 503 Service Unavailable (1102ms)
+2026-02-18 23:02:35 INFO  [database] Attempting connection pool recovery...
+2026-02-18 23:02:40 INFO  [database] Killing idle connections older than 60s
+2026-02-18 23:02:45 INFO  [database] Released 15 stale connections
+2026-02-18 23:02:50 INFO  [database] Connection pool at 45% capacity
+2026-02-18 23:02:55 INFO  [health-check] Database health check PASSED
+2026-02-18 23:03:00 INFO  [api-gateway] Circuit breaker CLOSED - service recovered
+2026-02-18 23:03:05 INFO  [api-gateway] Request received: GET /api/users/123
+2026-02-18 23:03:05 INFO  [api-gateway] Response sent: 200 OK (32ms)
+2026-02-18 23:03:10 INFO  [alerting] Alert resolved: DATABASE_POOL_EXHAUSTED
+2026-02-18 23:03:15 INFO  [api-gateway] Request received: POST /api/orders
+2026-02-18 23:03:16 INFO  [order-service] Order created successfully: order_id=10234
+2026-02-18 23:03:17 INFO  [api-gateway] Response sent: 201 Created (1523ms)
+2026-02-18 23:03:20 WARN  [database] Connection pool at 75% capacity
+2026-02-18 23:03:25 INFO  [api-gateway] Request received: GET /api/products
+2026-02-18 23:03:26 INFO  [product-service] Products fetched: 150 items
+2026-02-18 23:03:27 INFO  [api-gateway] Response sent: 200 OK (1205ms)
+2026-02-18 23:05:00 ERROR [cron-job] Scheduled task 'cleanup-sessions' failed: TimeoutException
+2026-02-18 23:05:01 WARN  [cron-job] Retrying task 'cleanup-sessions' in 60s
+2026-02-18 23:06:00 INFO  [cron-job] Task 'cleanup-sessions' completed successfully on retry
+2026-02-18 23:10:15 INFO  [api-gateway] Request received: GET /api/users/999
+2026-02-18 23:10:16 ERROR [user-service] User not found: user_id=999
+2026-02-18 23:10:16 INFO  [api-gateway] Response sent: 404 Not Found (45ms)
+2026-02-18 23:15:00 INFO  [metrics] Hourly stats: requests=1523, errors=18, p99_latency=2500ms
+2026-02-18 23:20:30 WARN  [security] Rate limit warning: IP 192.168.1.105 - 95/100 requests
+2026-02-18 23:20:45 ERROR [security] Rate limit exceeded: IP 192.168.1.105 - blocked for 60s
+2026-02-18 23:21:45 INFO  [security] Rate limit lifted: IP 192.168.1.105
+2026-02-18 23:30:00 INFO  [backup] Nightly backup started
+2026-02-18 23:35:00 INFO  [backup] Nightly backup completed: 2.3GB, 5 min duration
+2026-02-18 23:45:00 ERROR [notification-service] Failed to send email: SMTPException - Connection refused
+2026-02-18 23:45:01 WARN  [notification-service] Email queued for retry: notification_id=8834
+2026-02-18 23:46:00 INFO  [notification-service] Email sent successfully: notification_id=8834
+2026-02-19 00:00:00 INFO  [cron-job] Daily rotation started
+2026-02-19 00:00:05 INFO  [cron-job] Archived logs older than 7 days
+2026-02-19 00:00:10 INFO  [cron-job] Daily rotation completed
